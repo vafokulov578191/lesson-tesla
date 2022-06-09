@@ -56,23 +56,23 @@ function reload(arr) {
         }
 
         spedd_up.onclick = () => {
-            span_count_number.innerHTML = item.speed++
-            benzin.innerHTML = item.PowerReserve-- + 'км'
+            span_count_number.innerHTML = ++item.speed
+            benzin.innerHTML = --item.PowerReserve + 'км'
         }
 
         speed_down.onclick = () => {
-            span_count_number.innerHTML = item.speed--
-            benzin.innerHTML = item.PowerReserve++ + 'км'
+            span_count_number.innerHTML = --item.speed
+            benzin.innerHTML = ++item.PowerReserve + 'км'
         }
 
         temp_up.onclick = () => {
-            span_count_temp.innerHTML = item.Temperature++ + '°'
-            benzin.innerHTML = item.PowerReserve-- + 'км'
+            span_count_temp.innerHTML = ++item.Temperature + '°'
+            benzin.innerHTML = --item.PowerReserve + 'км'
         }
         
         temp_down.onclick = () => {
-            span_count_temp.innerHTML = item.Temperature-- + '°'
-            benzin.innerHTML = item.PowerReserve++ + 'км'
+            span_count_temp.innerHTML = --item.Temperature + '°'
+            benzin.innerHTML = ++item.PowerReserve + 'км'
         }
     }
 }
