@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.img_block_salon {
+    margin-bottom: 50px;
+}
+
+.img_block_salon img {
+    width: 1240px;
+    height: 697px;
+    object-fit: cover;
+}
+
+.block_price_new_side {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block_price_left_new_side {
+    display: flex;
+    flex-direction: column;
+}
+
+.block_price_left_new_side span {
+    font-size: 20px;
+    color: #707070;
+}
+
+.block_price_left_new_side b {
+    font-size: 50px;
+    color: #000000;
+}
+
+.block_price_right_new_side {
+    display: flex;
+    flex-direction: column;
+}
+
+.block_price_right_new_side span {
+    font-size: 20px;
+    color: #707070;
+}
+
+.block_price_right_new_side b {
+    font-size: 50px;
+    color: #000000;
+}
+
+.set_item {
+    margin-top: 50px;
+}
+
+.block_set_img {
+    display: flex;
+    width: 400px;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.block_set_img div {
+    width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.set_color_black {
+    background-color: #262626;
+}
+
+.set_color_cor {
+    background-color: #EFEFEF;
+}
+
+.set_color_grey {
+    background-color: #E6DDD0;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}

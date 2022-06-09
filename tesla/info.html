@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/info.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="img_block_salon">
+        <img class="atribute" src="./assets/img/image 10 (1).png" alt="img">
+    </div>
+    <div class="block_price_new_side">
+        <div class="block_price_left_new_side">
+            <span>Запас хода</span>
+            <b>750км</b>
+        </div>
+        <div class="block_price_right_new_side">
+            <span>Цена</span>
+            <b>$89, 990</b>
+        </div>
+    </div>
+    <div class="set_item">
+        <span>Цвет салона</span>
+        <div class="block_set_img">
+            <div class="set_color_black"></div>
+            <div class="set_color_cor"></div>
+            <div class="set_color_grey"></div>
+            <a href="./index.html"><button class="btn">Вид автомобиля</button></a>
+        </div>
+    </div>
+
+
+    <script>
+        let set_color_black =document.querySelector('.set_color_black')
+        let set_color_cor =document.querySelector('.set_color_cor')
+        let set_color_grey =document.querySelector('.set_color_grey')
+        let atribute = document.querySelector('.atribute')
+        
+        set_color_black.onclick = () => {
+            atribute.setAttribute('src', './assets/img/image 10 (1).png')
+        }
+
+        set_color_cor.onclick = () => {
+            atribute.setAttribute('src', './assets/img/image 9 (1).png')
+        }
+
+        set_color_grey.onclick = () => {
+            atribute.setAttribute('src', './assets/img/image 8 (1).png')
+        }
+
+
+    </script>
+</body>
+
+</html>

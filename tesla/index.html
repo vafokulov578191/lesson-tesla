@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="countainer">
+            <div class="block">
+                <div class="block_img">
+                    <img src="./assets/img/image 1.svg" alt="img">
+                    <img class="rot_left" src="./assets/img/car_wheel_PNG23316.png" alt="">
+                    <img class="rot" src="./assets/img/car_wheel_PNG23316.png" alt="">
+                        <a class="link" href="./info.html"></a>
+                </div>
+                <div class="block_price">
+                    <div class="block_price_left">
+                        <span>Запас хода</span>
+                        <b class="benzin">750км</b>
+                    </div>
+                    <div class="block_price_right">
+                        <span>Цена</span>
+                        <b>$89, 990</b>
+                    </div>
+                </div>
+                <div class="block_Reg">
+                    <div class="block_reg_left">
+                        <div class="block_speed">
+                            <div class="speed_km">
+                                <span class="span_title">Скорость автомобиля</span>
+                                <span class="span_count"><span class="span_count_number"></span>км/ч</span>
+                            </div>
+                            <div class="speed_up">
+                              <img class="spedd_up" src="./assets/img/image 3.png" alt="">
+                              <img class="speed_down" src="./assets/img/image 4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="block_degree">
+                            <div class="degree_temp">
+                                <span class="span_title">Температура за окнами</span>
+                                <span class="span_count_temp"></span>
+                            </div>
+                            <div class="degree_temp_up">
+                              <img class="temp_up" src="./assets/img/image 3.png" alt="">
+                              <img class="temp_down" src="./assets/img/image 4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="block_disk">
+                            <div class="disk_up">
+                                <span class="span_title">Диски</span>
+                                <span class="span_count_disk"></span>
+                            </div>
+                            <div class="disk_down">
+                                <img class="dick_up" src="./assets/img/image 3.png" alt="">
+                                <img class="dick_down" src="./assets/img/image 4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block_reg_right">
+                        <div class="block_switch_cond">
+                            <span>Кондиционер</span>
+                            <input type="checkbox" class="btn_con" id="switch">
+                                <label class="radius" for="switch"></label>
+                            </input>
+                        </div>
+                        <div class="block_switch_version_l">
+                            <span>Версия Long Range</span>
+                            <input type="checkbox" class="btn_version" id="switch">
+                                <label class="radius" for="switch"></label>
+                            </input>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./assets/js/script.js"></script>
+</body>
+</html>
